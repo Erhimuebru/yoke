@@ -19,7 +19,7 @@ let AppModule = class AppModule {
 AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
-            mongoose_1.MongooseModule.forRoot('mongodb+srv://erhimuebru:dftS6ew21jiATWHi@cluster0.lye52ec.mongodb.net/movies'),
+            mongoose_1.MongooseModule.forRoot("mongodb+srv://erhimuebru:dftS6ew21jiATWHi@cluster0.lye52ec.mongodb.net/movies"),
             movie_module_1.MovieModule,
             qrcode_module_1.QrcodeModule,
             movies_module_1.MoviesModule,
